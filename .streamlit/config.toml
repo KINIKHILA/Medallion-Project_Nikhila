@@ -1,0 +1,4 @@
+[server]
+showEmailPrompt = false
+maxUploadSize = 10
+address = "localhost"

@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/bronze_layer/*.csv
+data/silver_layer/*.csv
+data/gold_layer/*.csv
+data/sttm/*_template.json
+reports/sales_report.md
+runs/

@@ -1,12 +1,42 @@
-.env
-.venv/
+# Python cache files
 __pycache__/
-*.py[cod]
-.pytest_cache/
-.streamlit/secrets.toml
-data/bronze_layer/*.csv
-data/silver_layer/*.csv
-data/gold_layer/*.csv
-data/sttm/*_template.json
-reports/sales_report.md
-runs/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Generated data
+*.parquet
+data/**/*.csv
+data/metrics/
+data/cache/
+data/sttm_versions/
+data/users/*/sttm_versions/
+data/traces/
+data/users/*/traces/
+!data/landing/
+!data/landing/**
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Chroma database
+.chroma/
+
+# Generated outputs
+reports/
+audit_logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db

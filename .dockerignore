@@ -1,0 +1,26 @@
+.git
+.venv
+venv
+env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated data is mounted at runtime; retain data/landing sample inputs.
+data/bronze_layer/
+data/silver_layer/
+data/gold_layer/
+data/profiles/
+data/sttm/
+data/traces/
+data/metrics/
+data/users/
+reports/
+audit_logs/
+.chroma/
